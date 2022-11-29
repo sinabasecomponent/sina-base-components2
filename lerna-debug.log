@@ -6,13 +6,13 @@
 0 silly argv }
 1 notice cli v6.0.3
 2 verbose rootPath E:\practice\ui-lib
-3 verbose session 3d47b1c78ff2fadb
+3 verbose session 3bd6713bb0ca05c3
 4 verbose user-agent lerna/6.0.3/node@v16.17.0+x64 (win32)
 5 warn Yarn's registry proxy is broken, replacing with public npm registry
 6 warn If you don't have an npm token, you should exit and run `npm login`
 7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.0.3' }
 8 verbose rootPath E:\practice\ui-lib
-9 info current version 1.1.15
+9 info current version 1.1.16
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -21,117 +21,123 @@
 15 silly isBehindUpstream
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 17 silly hasTags
-18 verbose hasTags false
-19 info Assuming all packages changed
-20 verbose updated @sina-base-test/asset
-21 verbose updated @sina-base-test/component
-22 verbose git-describe undefined => "a705332"
-23 silly git-describe parsed => {"refCount":"8","sha":"a705332","isDirty":false}
-24 verbose version Overriding version of @sina-base-test/asset from 1.1.12 to 1.1.15
-25 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
-26 verbose getChangelogConfig using preset "conventional-changelog-angular"
-27 silly npa Result {
-27 silly npa   type: 'tag',
-27 silly npa   registry: true,
-27 silly npa   where: undefined,
-27 silly npa   raw: 'conventional-changelog-angular',
-27 silly npa   name: 'conventional-changelog-angular',
-27 silly npa   escapedName: 'conventional-changelog-angular',
-27 silly npa   scope: undefined,
-27 silly npa   rawSpec: '',
-27 silly npa   saveSpec: null,
-27 silly npa   fetchSpec: 'latest',
-27 silly npa   gitRange: undefined,
-27 silly npa   gitCommittish: undefined,
-27 silly npa   hosted: undefined
-27 silly npa }
-28 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
-29 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-30 verbose fixed increment 1.1.15 by patch
-31 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
-32 verbose fixed increment 1.1.15 by patch
-33 info auto-confirmed
-34 info execute Skipping releases
-35 silly lifecycle No script for "preversion" in "sina-components", continuing
-36 silly lifecycle No script for "preversion" in "@sina-base-test/asset", continuing
-37 silly lifecycle No script for "preversion" in "@sina-base-test/component", continuing
-38 verbose version @sina-base-test/asset has no lockfile. Skipping lockfile update.
-39 verbose version @sina-base-test/component has no lockfile. Skipping lockfile update.
-40 silly lifecycle No script for "version" in "@sina-base-test/asset", continuing
-41 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
-42 silly lifecycle No script for "version" in "@sina-base-test/component", continuing
-43 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
-44 silly fixed writing new entry: "## 1.1.16 (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/asset\n\n\n\n"
-45 verbose fixed wrote E:\practice\ui-lib\src\assets\CHANGELOG.md
-46 silly fixed writing new entry: "## 1.1.16 (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/component\n\n\n\n"
-47 verbose fixed wrote E:\practice\ui-lib\src\components\CHANGELOG.md
-48 silly root for sina-components at E:\practice\ui-lib
-49 silly root writing new entry: "## 1.1.16 (2022-11-29)\n\n**Note:** Version bump only for package sina-components\n\n\n\n"
-50 verbose root wrote E:\practice\ui-lib\CHANGELOG.md
-51 silly lifecycle No script for "version" in "sina-components", continuing
-52 silly version Successfully applied prettier to updated file: src/assets/package.json
-53 silly version Successfully applied prettier to updated file: src/components/package.json
-54 silly version Successfully applied prettier to updated file: src/assets/CHANGELOG.md
-55 silly version Successfully applied prettier to updated file: src/components/CHANGELOG.md
-56 silly version Successfully applied prettier to updated file: CHANGELOG.md
-57 silly version Successfully applied prettier to updated file: lerna.json
-58 silly gitAdd [
-58 silly gitAdd   'src/assets/package.json',
-58 silly gitAdd   'src/components/package.json',
-58 silly gitAdd   'src/assets/CHANGELOG.md',
-58 silly gitAdd   'src/components/CHANGELOG.md',
-58 silly gitAdd   'CHANGELOG.md',
-58 silly gitAdd   'lerna.json'
-58 silly gitAdd ]
-59 silly gitCommit chore(plus-base): publish
-60 verbose git [ 'commit', '-m', 'chore(plus-base): publish' ]
-61 silly gitTag v1.1.16
-62 verbose git [ 'tag', 'v1.1.16', '-m', 'v1.1.16' ]
-63 silly lifecycle No script for "postversion" in "@sina-base-test/asset", continuing
-64 silly lifecycle No script for "postversion" in "@sina-base-test/component", continuing
-65 silly lifecycle No script for "postversion" in "sina-components", continuing
-66 info git Pushing tags...
-67 silly gitPush origin master
-68 info publish Publishing packages to npm...
-69 warn ENOLICENSE Packages @sina-base-test/asset and @sina-base-test/component are missing a license.
-69 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-69 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-70 silly getCurrentSHA
-71 verbose getCurrentSHA 28948b7c7a9a2a00980584fb92105e375d3ca15c
-72 silly lifecycle No script for "prepublish" in "sina-components", continuing
-73 silly lifecycle No script for "prepare" in "sina-components", continuing
-74 silly lifecycle No script for "prepublishOnly" in "sina-components", continuing
-75 silly lifecycle No script for "prepack" in "sina-components", continuing
-76 verbose pack-directory src\assets
-77 verbose pack-directory src\components
-78 silly lifecycle No script for "prepublish" in "@sina-base-test/asset", continuing
-79 silly lifecycle No script for "prepublish" in "@sina-base-test/component", continuing
-80 silly lifecycle No script for "prepare" in "@sina-base-test/asset", continuing
-81 silly lifecycle No script for "prepare" in "@sina-base-test/component", continuing
-82 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/component", continuing
-83 silly lifecycle No script for "prepack" in "@sina-base-test/component", continuing
-84 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/asset", continuing
-85 silly lifecycle No script for "prepack" in "@sina-base-test/asset", continuing
-86 silly lifecycle No script for "postpack" in "@sina-base-test/asset", continuing
-87 verbose packed src\assets
-88 silly lifecycle No script for "postpack" in "@sina-base-test/component", continuing
-89 verbose packed src\components
-90 silly lifecycle No script for "postpack" in "sina-components", continuing
-91 verbose publish @sina-base-test/asset
-92 verbose publish @sina-base-test/component
-93 silly FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
-93 silly     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
-93 silly     at listOnTimeout (node:internal/timers:559:17)
-93 silly     at processTimers (node:internal/timers:502:7)
-93 silly  FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
-93 silly     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
-93 silly     at listOnTimeout (node:internal/timers:559:17)
-93 silly     at processTimers (node:internal/timers:502:7) {
-93 silly   code: 'FETCH_ERROR',
-93 silly   errno: 'FETCH_ERROR',
-93 silly   type: 'request-timeout'
-93 silly }
-94 error FETCH_ERROR network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
-95 error FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
-95 error     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
-95 error     at listOnTimeout (node:internal/timers:559:17)
+18 verbose hasTags true
+19 silly git-describe.sync "v1.1.16-1-gaf576bd" => {"lastTagName":"v1.1.16","lastVersion":"v1.1.16","refCount":"1","sha":"af576bd","isDirty":false}
+20 info Looking for changed packages since v1.1.16
+21 silly checking diff src/assets
+22 silly found diff in src/assets/package.json
+23 verbose filtered diff [ 'src/assets/package.json' ]
+24 silly checking diff src/components
+25 silly found diff in src/components/package.json
+26 verbose filtered diff [ 'src/components/package.json' ]
+27 verbose updated @sina-base-test/asset
+28 verbose updated @sina-base-test/component
+29 verbose git-describe undefined => "v1.1.16-1-gaf576bd"
+30 silly git-describe parsed => {"lastTagName":"v1.1.16","lastVersion":"v1.1.16","refCount":"1","sha":"af576bd","isDirty":false}
+31 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
+32 verbose getChangelogConfig using preset "conventional-changelog-angular"
+33 silly npa Result {
+33 silly npa   type: 'tag',
+33 silly npa   registry: true,
+33 silly npa   where: undefined,
+33 silly npa   raw: 'conventional-changelog-angular',
+33 silly npa   name: 'conventional-changelog-angular',
+33 silly npa   escapedName: 'conventional-changelog-angular',
+33 silly npa   scope: undefined,
+33 silly npa   rawSpec: '',
+33 silly npa   saveSpec: null,
+33 silly npa   fetchSpec: 'latest',
+33 silly npa   gitRange: undefined,
+33 silly npa   gitCommittish: undefined,
+33 silly npa   hosted: undefined
+33 silly npa }
+34 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+35 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+36 verbose fixed increment 1.1.16 by patch
+37 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
+38 verbose fixed increment 1.1.16 by patch
+39 info auto-confirmed
+40 info execute Skipping releases
+41 silly lifecycle No script for "preversion" in "sina-components", continuing
+42 silly lifecycle No script for "preversion" in "@sina-base-test/asset", continuing
+43 silly lifecycle No script for "preversion" in "@sina-base-test/component", continuing
+44 verbose version @sina-base-test/component has no lockfile. Skipping lockfile update.
+45 verbose version @sina-base-test/asset has no lockfile. Skipping lockfile update.
+46 silly lifecycle No script for "version" in "@sina-base-test/asset", continuing
+47 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
+48 silly lifecycle No script for "version" in "@sina-base-test/component", continuing
+49 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
+50 silly fixed writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/asset\n\n\n\n"
+51 verbose fixed wrote E:\practice\ui-lib\src\assets\CHANGELOG.md
+52 silly fixed writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/component\n\n\n\n"
+53 verbose fixed wrote E:\practice\ui-lib\src\components\CHANGELOG.md
+54 silly root for sina-components at E:\practice\ui-lib
+55 silly root writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package sina-components\n\n\n\n"
+56 verbose root wrote E:\practice\ui-lib\CHANGELOG.md
+57 silly lifecycle No script for "version" in "sina-components", continuing
+58 silly version Successfully applied prettier to updated file: src/assets/package.json
+59 silly version Successfully applied prettier to updated file: src/components/package.json
+60 silly version Successfully applied prettier to updated file: src/assets/CHANGELOG.md
+61 silly version Successfully applied prettier to updated file: src/components/CHANGELOG.md
+62 silly version Successfully applied prettier to updated file: CHANGELOG.md
+63 silly version Successfully applied prettier to updated file: lerna.json
+64 silly gitAdd [
+64 silly gitAdd   'src/assets/package.json',
+64 silly gitAdd   'src/components/package.json',
+64 silly gitAdd   'src/assets/CHANGELOG.md',
+64 silly gitAdd   'src/components/CHANGELOG.md',
+64 silly gitAdd   'CHANGELOG.md',
+64 silly gitAdd   'lerna.json'
+64 silly gitAdd ]
+65 silly gitCommit chore(plus-base): publish
+66 verbose git [ 'commit', '-m', 'chore(plus-base): publish' ]
+67 silly gitTag v1.1.17
+68 verbose git [ 'tag', 'v1.1.17', '-m', 'v1.1.17' ]
+69 silly lifecycle No script for "postversion" in "@sina-base-test/asset", continuing
+70 silly lifecycle No script for "postversion" in "@sina-base-test/component", continuing
+71 silly lifecycle No script for "postversion" in "sina-components", continuing
+72 info git Pushing tags...
+73 silly gitPush origin master
+74 info publish Publishing packages to npm...
+75 warn ENOLICENSE Packages @sina-base-test/asset and @sina-base-test/component are missing a license.
+75 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+75 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+76 silly getCurrentSHA
+77 verbose getCurrentSHA 243aad1d61c3837a5ee2de6b66e85e44eb3e6c1a
+78 silly lifecycle No script for "prepublish" in "sina-components", continuing
+79 silly lifecycle No script for "prepare" in "sina-components", continuing
+80 silly lifecycle No script for "prepublishOnly" in "sina-components", continuing
+81 silly lifecycle No script for "prepack" in "sina-components", continuing
+82 verbose pack-directory src\assets
+83 verbose pack-directory src\components
+84 silly lifecycle No script for "prepublish" in "@sina-base-test/asset", continuing
+85 silly lifecycle No script for "prepublish" in "@sina-base-test/component", continuing
+86 silly lifecycle No script for "prepare" in "@sina-base-test/asset", continuing
+87 silly lifecycle No script for "prepare" in "@sina-base-test/component", continuing
+88 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/component", continuing
+89 silly lifecycle No script for "prepack" in "@sina-base-test/component", continuing
+90 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/asset", continuing
+91 silly lifecycle No script for "prepack" in "@sina-base-test/asset", continuing
+92 silly lifecycle No script for "postpack" in "@sina-base-test/asset", continuing
+93 verbose packed src\assets
+94 silly lifecycle No script for "postpack" in "@sina-base-test/component", continuing
+95 verbose packed src\components
+96 silly lifecycle No script for "postpack" in "sina-components", continuing
+97 verbose publish @sina-base-test/asset
+98 verbose publish @sina-base-test/component
+99 silly FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
+99 silly     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
+99 silly     at listOnTimeout (node:internal/timers:559:17)
+99 silly     at processTimers (node:internal/timers:502:7)
+99 silly  FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
+99 silly     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
+99 silly     at listOnTimeout (node:internal/timers:559:17)
+99 silly     at processTimers (node:internal/timers:502:7) {
+99 silly   code: 'FETCH_ERROR',
+99 silly   errno: 'FETCH_ERROR',
+99 silly   type: 'request-timeout'
+99 silly }
+100 error FETCH_ERROR network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
+101 error FetchError: network timeout at: https://registry.npmjs.org/@sina-base-test%2fasset
+101 error     at Timeout.<anonymous> (E:\practice\ui-lib\node_modules\minipass-fetch\lib\index.js:108:18)
+101 error     at listOnTimeout (node:internal/timers:559:17)
