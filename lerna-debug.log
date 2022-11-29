@@ -6,13 +6,13 @@
 0 silly argv }
 1 notice cli v6.0.3
 2 verbose rootPath E:\practice\ui-lib
-3 verbose session 3bd6713bb0ca05c3
+3 verbose session b01e017bfe46a70f
 4 verbose user-agent lerna/6.0.3/node@v16.17.0+x64 (win32)
 5 warn Yarn's registry proxy is broken, replacing with public npm registry
 6 warn If you don't have an npm token, you should exit and run `npm login`
 7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.0.3' }
 8 verbose rootPath E:\practice\ui-lib
-9 info current version 1.1.16
+9 info current version 1.1.17
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,8 +22,8 @@
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.1.16-1-gaf576bd" => {"lastTagName":"v1.1.16","lastVersion":"v1.1.16","refCount":"1","sha":"af576bd","isDirty":false}
-20 info Looking for changed packages since v1.1.16
+19 silly git-describe.sync "v1.1.17-1-g5fd609b" => {"lastTagName":"v1.1.17","lastVersion":"v1.1.17","refCount":"1","sha":"5fd609b","isDirty":false}
+20 info Looking for changed packages since v1.1.17
 21 silly checking diff src/assets
 22 silly found diff in src/assets/package.json
 23 verbose filtered diff [ 'src/assets/package.json' ]
@@ -32,8 +32,8 @@
 26 verbose filtered diff [ 'src/components/package.json' ]
 27 verbose updated @sina-base-test/asset
 28 verbose updated @sina-base-test/component
-29 verbose git-describe undefined => "v1.1.16-1-gaf576bd"
-30 silly git-describe parsed => {"lastTagName":"v1.1.16","lastVersion":"v1.1.16","refCount":"1","sha":"af576bd","isDirty":false}
+29 verbose git-describe undefined => "v1.1.17-1-g5fd609b"
+30 silly git-describe parsed => {"lastTagName":"v1.1.17","lastVersion":"v1.1.17","refCount":"1","sha":"5fd609b","isDirty":false}
 31 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
 32 verbose getChangelogConfig using preset "conventional-changelog-angular"
 33 silly npa Result {
@@ -53,46 +53,46 @@
 33 silly npa }
 34 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 35 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-36 verbose fixed increment 1.1.16 by patch
+36 verbose fixed increment 1.1.17 by patch
 37 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
-38 verbose fixed increment 1.1.16 by patch
+38 verbose fixed increment 1.1.17 by patch
 39 info auto-confirmed
 40 info execute Skipping releases
 41 silly lifecycle No script for "preversion" in "sina-components", continuing
 42 silly lifecycle No script for "preversion" in "@sina-base-test/asset", continuing
 43 silly lifecycle No script for "preversion" in "@sina-base-test/component", continuing
-44 verbose version @sina-base-test/component has no lockfile. Skipping lockfile update.
-45 verbose version @sina-base-test/asset has no lockfile. Skipping lockfile update.
+44 verbose version @sina-base-test/asset has no lockfile. Skipping lockfile update.
+45 verbose version @sina-base-test/component has no lockfile. Skipping lockfile update.
 46 silly lifecycle No script for "version" in "@sina-base-test/asset", continuing
 47 silly fixed for @sina-base-test/asset at E:\practice\ui-lib\src\assets
 48 silly lifecycle No script for "version" in "@sina-base-test/component", continuing
 49 silly fixed for @sina-base-test/component at E:\practice\ui-lib\src\components
-50 silly fixed writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/asset\n\n\n\n"
-51 verbose fixed wrote E:\practice\ui-lib\src\assets\CHANGELOG.md
-52 silly fixed writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/component\n\n\n\n"
-53 verbose fixed wrote E:\practice\ui-lib\src\components\CHANGELOG.md
+50 silly fixed writing new entry: "## [1.1.18](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.17...v1.1.18) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/component\n\n\n\n"
+51 verbose fixed wrote E:\practice\ui-lib\src\components\CHANGELOG.md
+52 silly fixed writing new entry: "## [1.1.18](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.17...v1.1.18) (2022-11-29)\n\n**Note:** Version bump only for package @sina-base-test/asset\n\n\n\n"
+53 verbose fixed wrote E:\practice\ui-lib\src\assets\CHANGELOG.md
 54 silly root for sina-components at E:\practice\ui-lib
-55 silly root writing new entry: "## [1.1.17](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.16...v1.1.17) (2022-11-29)\n\n**Note:** Version bump only for package sina-components\n\n\n\n"
+55 silly root writing new entry: "## [1.1.18](https://github.com/sinabasecomponent/sina-base-components2/compare/v1.1.17...v1.1.18) (2022-11-29)\n\n**Note:** Version bump only for package sina-components\n\n\n\n"
 56 verbose root wrote E:\practice\ui-lib\CHANGELOG.md
 57 silly lifecycle No script for "version" in "sina-components", continuing
 58 silly version Successfully applied prettier to updated file: src/assets/package.json
 59 silly version Successfully applied prettier to updated file: src/components/package.json
-60 silly version Successfully applied prettier to updated file: src/assets/CHANGELOG.md
-61 silly version Successfully applied prettier to updated file: src/components/CHANGELOG.md
+60 silly version Successfully applied prettier to updated file: src/components/CHANGELOG.md
+61 silly version Successfully applied prettier to updated file: src/assets/CHANGELOG.md
 62 silly version Successfully applied prettier to updated file: CHANGELOG.md
 63 silly version Successfully applied prettier to updated file: lerna.json
 64 silly gitAdd [
 64 silly gitAdd   'src/assets/package.json',
 64 silly gitAdd   'src/components/package.json',
-64 silly gitAdd   'src/assets/CHANGELOG.md',
 64 silly gitAdd   'src/components/CHANGELOG.md',
+64 silly gitAdd   'src/assets/CHANGELOG.md',
 64 silly gitAdd   'CHANGELOG.md',
 64 silly gitAdd   'lerna.json'
 64 silly gitAdd ]
 65 silly gitCommit chore(plus-base): publish
 66 verbose git [ 'commit', '-m', 'chore(plus-base): publish' ]
-67 silly gitTag v1.1.17
-68 verbose git [ 'tag', 'v1.1.17', '-m', 'v1.1.17' ]
+67 silly gitTag v1.1.18
+68 verbose git [ 'tag', 'v1.1.18', '-m', 'v1.1.18' ]
 69 silly lifecycle No script for "postversion" in "@sina-base-test/asset", continuing
 70 silly lifecycle No script for "postversion" in "@sina-base-test/component", continuing
 71 silly lifecycle No script for "postversion" in "sina-components", continuing
@@ -103,7 +103,7 @@
 75 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 75 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 76 silly getCurrentSHA
-77 verbose getCurrentSHA 243aad1d61c3837a5ee2de6b66e85e44eb3e6c1a
+77 verbose getCurrentSHA 88abc58121a7f05f1b6dda6495e1d9c20664bb5d
 78 silly lifecycle No script for "prepublish" in "sina-components", continuing
 79 silly lifecycle No script for "prepare" in "sina-components", continuing
 80 silly lifecycle No script for "prepublishOnly" in "sina-components", continuing
@@ -114,10 +114,10 @@
 85 silly lifecycle No script for "prepublish" in "@sina-base-test/component", continuing
 86 silly lifecycle No script for "prepare" in "@sina-base-test/asset", continuing
 87 silly lifecycle No script for "prepare" in "@sina-base-test/component", continuing
-88 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/component", continuing
-89 silly lifecycle No script for "prepack" in "@sina-base-test/component", continuing
-90 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/asset", continuing
-91 silly lifecycle No script for "prepack" in "@sina-base-test/asset", continuing
+88 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/asset", continuing
+89 silly lifecycle No script for "prepack" in "@sina-base-test/asset", continuing
+90 silly lifecycle No script for "prepublishOnly" in "@sina-base-test/component", continuing
+91 silly lifecycle No script for "prepack" in "@sina-base-test/component", continuing
 92 silly lifecycle No script for "postpack" in "@sina-base-test/asset", continuing
 93 verbose packed src\assets
 94 silly lifecycle No script for "postpack" in "@sina-base-test/component", continuing
