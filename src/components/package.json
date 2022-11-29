@@ -11,7 +11,8 @@
     "compile": "tsc -b",
     "watch": "tsc -b -w",
     "clean": "rimraf ./dist && rimraf  tsconfig.tsbuildinfo",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "rollup": "rollup -c"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -80,6 +81,5 @@
   },
   "description": "sina base component",
   "author": "sina coms",
-  "license": "ISC",
-  "gitHead": "74d38a9c6280ac337682a949c924fa4143aec12d"
+  "license": "ISC"
 }

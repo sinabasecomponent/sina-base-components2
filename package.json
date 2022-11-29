@@ -11,14 +11,13 @@
     ]
   },
   "scripts": {
-    "rollup": "rollup -c",
     "storybook": "yarn workspace @sina-base/component storybook",
     "build-storybook": "build-storybook",
     "test": "jest",
     "lint": "eslint . --ext tsx,ts  --fix",
     "lint-commit": "cross-env COMMIT=true eslint . --ext tsx,ts  --fix",
     "compile": "yarn lerna-clean && yarn lerna-build && tsc -b",
-    "release": "yarn lint-commit && yarn compile && yarn test -- --watchAll=false --silent && npx lerna publish",
+    "release": "yarn lint-commit && yarn compile && yarn test -- --watchAll=false --silent && yarn workspace @sina-base/component &&npx lerna publish",
     "publish-npm": "npm publish --access public",
     "lerna-watch": "lerna run watch --stream",
     "lerna-build": "lerna run compile --stream",
