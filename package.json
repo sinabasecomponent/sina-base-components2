@@ -17,7 +17,7 @@
     "lint": "eslint . --ext tsx,ts  --fix",
     "lint-commit": "cross-env COMMIT=true eslint . --ext tsx,ts  --fix",
     "compile": "yarn lerna-clean && yarn lerna-build && tsc -b",
-    "release": "yarn lint-commit && yarn compile && yarn test -- --watchAll=false --silent && yarn workspace @sina-base/component rollup &&npx lerna publish",
+    "release": "yarn workspace @sina-base-test/component rollup &&npx lerna publish",
     "publish-npm": "npm publish --access public",
     "lerna-watch": "lerna run watch --stream",
     "lerna-build": "lerna run compile --stream",
@@ -26,6 +26,8 @@
     "rollup": "yarn workspace @sina-base/component rollup"
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^5.0.2",
+    "@rollup/plugin-url": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "cross-env": "^7.0.3",
@@ -37,6 +39,7 @@
     "eslint-plugin-storybook": "^0.6.7",
     "prettier": "^2.8.0",
     "prettier-plugin-organize-imports": "^3.2.1",
-    "react-hook-form": "^7.39.7"
+    "react-hook-form": "^7.39.7",
+    "rollup-plugin-url": "^3.0.1"
   }
 }
