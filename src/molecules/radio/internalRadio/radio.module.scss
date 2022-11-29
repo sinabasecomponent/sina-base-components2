@@ -1,0 +1,15 @@
+@import "../../../styles/color";
+
+.ripple {
+  opacity: 0.2;
+  width: 0px;
+  height: 0px;
+  background-color: $color-primary-1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  position: absolute;
+  transform-origin: center;
+  border-radius: 50%;
+}
