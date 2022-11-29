@@ -82,5 +82,6 @@
   },
   "description": "sina base component",
   "author": "sina coms",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "28948b7c7a9a2a00980584fb92105e375d3ca15c"
 }
